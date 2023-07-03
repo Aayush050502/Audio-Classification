@@ -39,3 +39,12 @@ To develop an accurate audio classification system that can classify and categor
   librosa==0.10.0
 ```
 
+## Motivation and Inspiration:
+We aim to differentiate ourselves by taking a hands-on approach to data collection, analysis , and exploration rather than replying on pre-existing datasets from platforms like kaggle. 
+
+
+## Data Collection:
+We collected 1-minute audio samples from 11 of our classmates including us . Each audio samples were saved in .wav format instead of .mp3 format becuase .mp3 format compresses the audio which may not suitable while feature extraction.
+
+##Note:
+We can't share the dataset publicly inorder to preserve privacy of our contributors. 
