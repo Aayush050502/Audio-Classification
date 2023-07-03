@@ -46,5 +46,14 @@ We aim to differentiate ourselves by taking a hands-on approach to data collecti
 ## Data Collection:
 We collected 1-minute audio samples from 11 of our classmates including us . Each audio samples were saved in .wav format instead of .mp3 format becuase .mp3 format compresses the audio which may not suitable while feature extraction.
 
-##Note:
-We can't share the dataset publicly inorder to preserve privacy of our contributors. 
+## Note:
+Unfortunately , we coulf not able to  share the audiosamples/dataset publicly inorder to preserve privacy of our contributors. 
+
+You can create your own dataset by collecting clear audio samples from your classmates and save them as .wav format.
+
+## Data pre-processing:
+We partitioned each recording into 10 seperate 5-second audio files . By breaking down the audio into smaller segments , our model can process and analyze the data more effectively , enabling more accurate and granular predictions.
+
+
+
+
