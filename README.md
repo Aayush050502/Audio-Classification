@@ -48,12 +48,26 @@ We collected 1-minute audio samples from 11 of our classmates including us . Eac
 
 ## Note:
 Unfortunately , we coulf not able to  share the audiosamples/dataset publicly inorder to preserve privacy of our contributors. 
-
 You can create your own dataset by collecting clear audio samples from your classmates and save them as .wav format.
 
 ## Data pre-processing:
 We partitioned each recording into 10 seperate 5-second audio files . By breaking down the audio into smaller segments , our model can process and analyze the data more effectively , enabling more accurate and granular predictions.
 
+## Feature extraction
+MFCC (Mel-frequency cepstral coefficients) is a widely used feature extraction technique in audio signal processing and analysis. It aims to capture the characteristics of the human auditory system by converting the audio signal from the time domain to the frequency domain.
+Yes, it is true that MFCC features are inspired by the human auditory system. The human ear is more sensitive to certain frequencies and less sensitive to others, and this sensitivity is not linear across the entire audible frequency range. The Mel scale is a perceptual scale that approximates the non-linear frequency response of the human ear.
 
+The MFCC feature extraction process incorporates this understanding of the human auditory system by using the Mel filterbank, which applies a set of triangular filters spaced uniformly in the Mel scale to the power spectrum of the audio signal. This mimics the ear's response to different frequencies and allows the MFCCs to capture the perceptually relevant characteristics of the audio.
+
+Additionally, the logarithmic transformation applied to the filterbank energies in the MFCC computation is also inspired by the logarithmic perception of loudness in human hearing. It further aligns the feature representation with the characteristics of human auditory perception.
+
+By modeling the audio signal processing based on the human auditory system, MFCC features provide a more effective representation for capturing the essential information and characteristics of the audio signal, making them widely used in speech and audio processing applications.
+
+## Models implemented
+We implemented two CNN models with slight variation.
+The first one has tanh as activation function and the second one has "ReLU" as activation function
+
+## Results
+The CNN model which has ReLU activation function turns out to be the better model compared to former .
 
 
