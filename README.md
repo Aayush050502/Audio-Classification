@@ -55,7 +55,7 @@ We partitioned each recording into 10 seperate 5-second audio files . By breakin
 
 ## Feature extraction
 MFCC (Mel-frequency cepstral coefficients) is a widely used feature extraction technique in audio signal processing and analysis. It aims to capture the characteristics of the human auditory system by converting the audio signal from the time domain to the frequency domain.
-Yes, it is true that MFCC features are inspired by the human auditory system. The human ear is more sensitive to certain frequencies and less sensitive to others, and this sensitivity is not linear across the entire audible frequency range. The Mel scale is a perceptual scale that approximates the non-linear frequency response of the human ear.
+MFCC features are inspired by the human auditory system. The human ear is more sensitive to certain frequencies and less sensitive to others, and this sensitivity is not linear across the entire audible frequency range. The Mel scale is a perceptual scale that approximates the non-linear frequency response of the human ear.
 
 The MFCC feature extraction process incorporates this understanding of the human auditory system by using the Mel filterbank, which applies a set of triangular filters spaced uniformly in the Mel scale to the power spectrum of the audio signal. This mimics the ear's response to different frequencies and allows the MFCCs to capture the perceptually relevant characteristics of the audio.
 
